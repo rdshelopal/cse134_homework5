@@ -233,6 +233,21 @@
         margin: 0 auto; /* Center the container */
     }
 
+    .button-container{ /*button container styling*/
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap:2rem;
+        
+        #load-local, #load-remote{ /*button styling*/
+            font-size: 1rem;
+
+
+        }
+
+        
+    }
+
     /*contact form*/
 
     #contact{
