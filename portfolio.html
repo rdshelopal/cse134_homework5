@@ -17,47 +17,20 @@
             </ul>
             <button id="settingsbutton">Settings</button> 
         </nav>
+        <div id="lightSwitch">
+            <button id="theme-toggle"> 🌞 / 🌜</button>
+        </div>
     </header>
-    <main>
-        <section id="projects">
-            <h2>Projects</h2>
-            <search>
-                <form id="portfoliosearch">
-                <input type="text" placeholder="Search projects...">
-                <button type="submit">Search</button>
-                </form>
-            </search>
-            
+    <main>    
         </section>
             <section id="projectslist">
                 <br>
-                <ul>
-                    <li>
-                        <strong>Developer Journal</strong> -
-                        <a href="https://github.com/cse110-sp24-group33/cse110-sp24-group33" target="_blank">GitHub</a>
-                        <p>Developed a streamlined and user-friendly journaling tool tailored for developers, enabling them to efficiently manage deadlines and daily tasks.</p>
-                    </li>
-                    <li>
-                        <strong>SHA-256 Hardware Implementation</strong> - 
-                        <a href="https://github.com/yourgithubusername" target="_blank">GitHub</a>
-                        <p>Designed and implemented a SHA-256 hashing algorithm in SystemVerilog, ensuring efficient hardware acceleration.</p>
-                    </li>
-                    <li>
-                        <strong>Custom CPU Design</strong> - 
-                        <a href="https://github.com/a6srivastava/cse141L_processor" target="_blank">GitHub</a>
-                        <p>Developed a custom processor architecture in SystemVerilog, implementing an accumulator-based ISA.</p>
-                    </li>
-                    <li>
-                        <strong>Recommender System (Machine Learning)</strong> -
-                        <a href="https://github.com/yourgithubusername" target="_blank">GitHub</a>
-                        <p>Built an ML-based recommendation system for predicting user-book interactions, leveraging **SVD, Jaccard similarity, and Logistic Regression**.</p>
-                    </li>
-                    <li>
-                        <strong>UART Communication System</strong> - 
-                        <a href="https://github.com/yourgithubusername" target="_blank">GitHub</a>
-                        <p>Developed a UART Transmitter-Receiver system in SystemVerilog, implementing a handshake synchronizer for reliable data transfer.</p>
-                    </li>
-                </ul>
+                <h2 class="projects-title">Projects</h2>
+            <div class="button-container">
+                <button id="load-local">Load Local</button>
+                <button id="load-remote">Load Remote</button>
+            </div>
+            <div class="projects-container"></div>  <!-- Where JS inserts project cards -->
             </section>
         </section>
     </main>
@@ -65,6 +38,10 @@
         <p>&copy; 2025 Ryandeep Shelopal</p>
     </footer>
     
+    <script src="project-card.js"></script>
+    <script src="data-loader.js"></script>
     <script src="themes.js"></script>
+    
+
 </body>
 </html>

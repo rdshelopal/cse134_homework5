@@ -219,6 +219,22 @@
         padding: 2rem 2rem;
     }
 
+    .projects-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    }
+
+    .projects-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        justify-content: center;
+        max-width: 1000px; /* Adjust based on preference */
+        margin: 0 auto; /* Center the container */
+    }
+
     /*contact form*/
 
     #contact{
