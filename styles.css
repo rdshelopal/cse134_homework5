@@ -7,8 +7,8 @@
 
     /*disney pixar sky for light mdode*/
     [data-theme="light"] {
-        --bgcolor: #c3f4ff;  
-        --accent-color: rgb(93, 92, 92);
+        --bgcolor: #ffffff;  
+        --accent-color: rgb(0, 0, 0);
         --border-color: #00b4ff;
     }
 
@@ -323,7 +323,7 @@
             padding: 1rem 2rem;
         }
     }
-}
+
         
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
